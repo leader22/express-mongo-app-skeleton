@@ -1,0 +1,21 @@
+{
+  "name": "Express-mongodb-app-skelton",
+  "version": "0.0.0",
+  "description": "My skelton for node express and mongodb.",
+  "main": "app.js",
+  "dependencies": {
+    "config": "~0.4.33",
+    "express": "~3.4.4",
+    "express-validator": "~1.0.1",
+    "hbs": "~2.4.0",
+    "crypto": "~0.0.3",
+    "mongoose": "~3.8.0",
+    "connect-mongo": "~0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leader22",
+  "license": "BSD-2-Clause"
+}

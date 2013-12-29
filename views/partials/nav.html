@@ -1,0 +1,12 @@
+<hr />
+Include nav.<br>
+isLoggedIn ?
+{{#if c.isLoggedIn}}
+true
+<a href="/logout">Log out</a>
+<a href="/my/">Mypage</a>
+{{else}}
+false
+<a href="/login">Log in</a>
+{{/if}}
+<hr />

@@ -1,0 +1,18 @@
+{{> header}}
+
+Login page!<br>
+
+<form action="/login" method="post">
+  id<input type="text" name="id"/><br>
+  password<input type="text" name="password"/><br>
+  <button>login</button>
+</form>
+
+{{#if error}}
+Error: {{error}}<br>
+{{/if}}
+
+
+<a href="/register">Register</a>
+
+{{> footer}}
