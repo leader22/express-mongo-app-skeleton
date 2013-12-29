@@ -2,14 +2,14 @@ module.exports = (function() {
 'use strict';
 
 return {
-  port: 8463,
+  port: 1337,
   partialsDir: __dirname + '/../views/partials',
   controllersDir: __dirname + '/../controllers',
   dbName: 'myApp',
   databaseErrors: {
     ERROR: 'Database error',
     NO_DATA: 'No data',
-    11000: 'Already used'
+    11000: 'Already used(unique key)'
   },
   validationErrors: {
     ID_EMPTY: 'ID is empty',
